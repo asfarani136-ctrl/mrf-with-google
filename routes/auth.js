@@ -140,8 +140,8 @@ module.exports = function createAuthRouter({
                         if (saveErr) {
                             return res.redirect('/?google_error=session_save_failed');
                         }
-
-                        return res.redirect('/');
+                        // ✅ CHANGED: redirect to dashboard instead of root
+                        return res.redirect('/dashboard');
                     });
                 });
             });
