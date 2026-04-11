@@ -952,7 +952,6 @@ const facebookCountries = [
     { name: 'Lebanon', code: '+961', price: 170, countryId: 153, flag: '🇱🇧' },
     { name: 'Hong Kong', code: '+852', price: 30, countryId: 14, flag: '🇭🇰' },
     { name: 'Uzbekistan', code: '+998', price: 34, countryId: 40, flag: '🇺🇿' }
-    { name: 'United Kingdom', code: '+44', price: 16, countryId: 16, flag: '🇬🇧' },
 ];
 
 const instagramCountries = [
