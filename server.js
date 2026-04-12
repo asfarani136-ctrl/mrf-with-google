@@ -900,17 +900,17 @@ async function updateUserLastLogin(userId) {
 }
 
 const whatsappCountries = [
-    { name: 'South Africa', code: '+27', price: 170, countryId: 31, flag: '🇿🇦' },
-    { name: 'Indonesia', code: '+62', price: 200, countryId: 6, flag: '🇮🇩' },
-    { name: 'Canada', code: '+1', price: 210, countryId: 36, flag: '🇨🇦' },
-    { name: 'Philippines', code: '+63', price: 210, countryId: 4, flag: '🇵🇭' },
+    { name: 'South Africa', code: '+27', price: 80, countryId: 31, flag: '🇿🇦' },
+    { name: 'Indonesia', code: '+62', price: 170, countryId: 6, flag: '🇮🇩' },
+    { name: 'Canada', code: '+1', price: 170, countryId: 36, flag: '🇨🇦' },
+    { name: 'Philippines', code: '+63', price: 190, countryId: 4, flag: '🇵🇭' },
     { name: 'Thailand', code: '+66', price: 300, countryId: 52, flag: '🇹🇭' },
     { name: 'Vietnam', code: '+84', price: 210, countryId: 10, flag: '🇻🇳' },
-    { name: 'Colombia', code: '+57', price: 270, countryId: 33, flag: '🇨🇴' },
-    { name: 'Saudi Arabia', code: '+966', price: 320, countryId: 53, flag: '🇸🇦' },
+    { name: 'Colombia', code: '+57', price: 240, countryId: 33, flag: '🇨🇴' },
+    { name: 'Saudi Arabia', code: '+966', price: 240, countryId: 53, flag: '🇸🇦' },
     { name: 'Brazil', code: '+55', price: 370, countryId: 73, flag: '🇧🇷' },
-    { name: 'USA', code: '+1', price: 400, countryId: 187, flag: '🇺🇸' },
-    { name: 'United Kingdom', code: '+44', price: 450, countryId: 16, flag: '🇬🇧' }
+    { name: 'USA', code: '+1', price: 370, countryId: 187, flag: '🇺🇸' },
+    { name: 'United Kingdom', code: '+44', price: 300, countryId: 16, flag: '🇬🇧' }
 ];
 
 const facebookCountries = [
