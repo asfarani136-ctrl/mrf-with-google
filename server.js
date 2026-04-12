@@ -918,6 +918,7 @@ const facebookCountries = [
     
     { name: 'USA', code: '+1', price: 75, countryId: 187, flag: '🇺🇸' },
     { name: 'Indonesia', code: '+62', price: 27, countryId: 6, flag: '🇮🇩' },
+    { name: 'Philippines', code: '+63', price: 27, countryId: 4, flag: '🇵🇭' },
     { name: 'Ethiopia', code: '+251', price: 31, countryId: 71, flag: '🇪🇹' },
     { name: 'USA Virtual', code: '+1', price: 70, countryId: 12, flag: '🇺🇸' },
     { name: 'Afghanistan', code: '+93', price: 31, countryId: 74, flag: '🇦🇫' },
