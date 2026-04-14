@@ -915,7 +915,7 @@ const whatsappCountries = [
 
 const facebookCountries = [
     { name: 'Canada', code: '+1', price: 75, countryId: 36, flag: '🇨🇦' },
-    
+    { name: 'United Kingdom', code: '+44', price: 40, countryId: 16, flag: '🇬🇧' },
     { name: 'USA', code: '+1', price: 75, countryId: 187, flag: '🇺🇸' },
     { name: 'Pakistan', code: '+92', price: 24, countryId: 66, flag: '🇵🇰' },
     { name: 'Indonesia', code: '+62', price: 11, countryId: 6, flag: '🇮🇩' },
