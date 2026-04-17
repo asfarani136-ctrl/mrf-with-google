@@ -1271,7 +1271,27 @@ const googleCountries = [
     { name: 'USA Virtual', code: '+1', price: 90, countryId: 12, flag: '🇺🇸' },
     { name: 'Indonesia', code: '+62', price: 90, countryId: 6, flag: '🇮🇩' },
     { name: 'Brazil', code: '+55', price: 90, countryId: 73, flag: '🇧🇷' },
-    { name: 'USA', code: '+1', price: 120, countryId: 187, flag: '🇺🇸' }
+    { name: 'USA', code: '+1', price: 120, countryId: 187, flag: '🇺🇸' },
+    { name: 'Colombia', code: '+57', price: 89, countryId: 33, flag: '🇨🇴' },
+    { name: 'India', code: '+91', price: 50, countryId: 22, flag: '🇮🇳' },
+    { name: 'Chile', code: '+56', price: 40, countryId: 151, flag: '🇨🇱' },
+    { name: 'Sweden', code: '+46', price: 40, countryId: 46, flag: '🇸🇪' },
+    { name: 'Argentina', code: '+54', price: 40, countryId: 39, flag: '🇦🇷' },
+    { name: 'Algeria', code: '+213', price: 100, countryId: 58, flag: '🇩🇿' },
+    { name: 'France', code: '+33', price: 90, countryId: 78, flag: '🇫🇷' },
+    { name: 'Greece', code: '+30', price: 130, countryId: 129, flag: '🇬🇷' },
+    { name: 'United Kingdom', code: '+44', price: 40, countryId: 16, flag: '🇬🇧' },
+    { name: 'South Africa', code: '+27', price: 35, countryId: 31, flag: '🇿🇦' },
+    { name: 'Canada', code: '+1', price: 80, countryId: 36, flag: '🇨🇦' },
+    { name: 'Bangladesh', code: '+880', price: 70, countryId: 60, flag: '🇧🇩' },
+    { name: 'Italy', code: '+39', price: 80, countryId: 86, flag: '🇮🇹' },
+    { name: 'Poland', code: '+48', price: 100, countryId: 15, flag: '🇵🇱' },
+    { name: 'Nigeria', code: '+234', price: 90, countryId: 19, flag: '🇳🇬' },
+    { name: 'Germany', code: '+49', price: 98, countryId: 43, flag: '🇩🇪' },
+    { name: 'Spain', code: '+34', price: 100, countryId: 56, flag: '🇪🇸' },
+    { name: 'Ghana', code: '+233', price: 40, countryId: 38, flag: '🇬🇭' },
+    { name: 'Portugal', code: '+351', price: 40, countryId: 117, flag: '🇵🇹' },
+    { name: 'Netherlands', code: '+31', price: 40, countryId: 48, flag: '🇳🇱' }
 ];
 
 function createThailandFallbackCountry(price = 40) {
@@ -1741,7 +1761,9 @@ const careemCountries = [
     { name: 'Zambia', code: '+260', price: 59.58, countryId: 147, flag: '🇿🇲' },
     { name: 'Zimbabwe', code: '+263', price: 98.78, countryId: 96, flag: '🇿🇼' }
 ];
-const spotifyCountries = [createThailandFallbackCountry(40)];
+const spotifyCountries = [
+    { name: 'USA', code: '+1', price: 160, countryId: 187, flag: '🇺🇸' }
+];
 const openaiCountries = [
     { name: 'Afghanistan', code: '', price: 38.81, countryId: 74, flag: '🇦🇫' },
     { name: 'Algeria', code: '', price: 123.87, countryId: 58, flag: '🇩🇿' },
@@ -1849,7 +1871,9 @@ const paypalCountries = [
     { name: 'Madagascar', code: '', price: 2.35, countryId: 17, flag: '🇲🇬' },
     { name: 'Ecuador', code: '', price: 73.30, countryId: 105, flag: '🇪🇨' }
 ];
-const aliexpressCountries = [createThailandFallbackCountry(40)];
+const aliexpressCountries = [
+    { name: 'Gibraltar', code: '+350', price: 400, countryId: 201, flag: '🇬🇮' }
+];
 const wechatCountries = [
     { name: 'Tanzania', code: '', price: 176.79, countryId: 9, flag: '🇹🇿' },
     { name: 'Sri Lanka', code: '', price: 143.47, countryId: 64, flag: '🇱🇰' },
@@ -2038,8 +2062,64 @@ const uberCountries = [
     { name: 'Vietnam', code: '', price: 24.30, countryId: 10, flag: '🇻🇳' },
     { name: 'Zimbabwe', code: '', price: 10, countryId: 96, flag: '🇿🇼' }
 ];
-const microsoftCountries = [createThailandFallbackCountry(40)];
-const signalCountries = [createThailandFallbackCountry(40)];
+const microsoftCountries = [
+    { name: 'Brazil', code: '+55', price: 9, countryId: 73, flag: '🇧🇷' },
+    { name: 'USA Virtual', code: '+1', price: 10, countryId: 12, flag: '🇺🇸' },
+    { name: 'Chile', code: '+56', price: 20, countryId: 151, flag: '🇨🇱' },
+    { name: 'USA', code: '+1', price: 50, countryId: 187, flag: '🇺🇸' },
+    { name: 'United Kingdom', code: '+44', price: 30, countryId: 16, flag: '🇬🇧' },
+    { name: 'Colombia', code: '+57', price: 40, countryId: 33, flag: '🇨🇴' },
+    { name: 'Netherlands', code: '+31', price: 30, countryId: 48, flag: '🇳🇱' },
+    { name: 'Finland', code: '+358', price: 80, countryId: 163, flag: '🇫🇮' },
+    { name: 'Poland', code: '+48', price: 40, countryId: 15, flag: '🇵🇱' },
+    { name: 'Switzerland', code: '+41', price: 30, countryId: 173, flag: '🇨🇭' },
+    { name: 'Portugal', code: '+351', price: 10, countryId: 117, flag: '🇵🇹' },
+    { name: 'Hong Kong', code: '+852', price: 26, countryId: 14, flag: '🇭🇰' },
+    { name: 'Canada', code: '+1', price: 29, countryId: 36, flag: '🇨🇦' },
+    { name: 'Malaysia', code: '+60', price: 40, countryId: 7, flag: '🇲🇾' },
+    { name: 'Spain', code: '+34', price: 50, countryId: 56, flag: '🇪🇸' },
+    { name: 'UAE', code: '+971', price: 70, countryId: 95, flag: '🇦🇪' }
+];
+const signalCountries = [
+    { name: 'USA', code: '+1', price: 40, countryId: 187, flag: '🇺🇸' },
+    { name: 'Canada', code: '+1', price: 10, countryId: 36, flag: '🇨🇦' },
+    { name: 'United Kingdom', code: '+44', price: 18, countryId: 16, flag: '🇬🇧' },
+    { name: 'Poland', code: '+48', price: 80, countryId: 15, flag: '🇵🇱' },
+    { name: 'Germany', code: '+49', price: 70, countryId: 43, flag: '🇩🇪' },
+    { name: 'Colombia', code: '+57', price: 13, countryId: 33, flag: '🇨🇴' },
+    { name: 'Romania', code: '+40', price: 20, countryId: 32, flag: '🇷🇴' },
+    { name: 'Brazil', code: '+55', price: 4, countryId: 73, flag: '🇧🇷' },
+    { name: 'Netherlands', code: '+31', price: 100, countryId: 48, flag: '🇳🇱' },
+    { name: 'Portugal', code: '+351', price: 19, countryId: 117, flag: '🇵🇹' },
+    { name: 'Czech Republic', code: '+420', price: 19, countryId: 63, flag: '🇨🇿' },
+    { name: 'Malaysia', code: '+60', price: 39, countryId: 7, flag: '🇲🇾' },
+    { name: 'Chile', code: '+56', price: 20, countryId: 151, flag: '🇨🇱' },
+    { name: 'Spain', code: '+34', price: 40, countryId: 56, flag: '🇪🇸' },
+    { name: 'Thailand', code: '+66', price: 90, countryId: 52, flag: '🇹🇭' },
+    { name: 'France', code: '+33', price: 15, countryId: 78, flag: '🇫🇷' },
+    { name: 'Sweden', code: '+46', price: 18, countryId: 46, flag: '🇸🇪' },
+    { name: 'Argentina', code: '+54', price: 20, countryId: 39, flag: '🇦🇷' },
+    { name: 'Maldives', code: '+960', price: 25, countryId: 159, flag: '🇲🇻' },
+    { name: 'Vietnam', code: '+84', price: 60, countryId: 10, flag: '🇻🇳' },
+    { name: 'Georgia', code: '+995', price: 20, countryId: 128, flag: '🇬🇪' },
+    { name: 'Philippines', code: '+63', price: 9, countryId: 4, flag: '🇵🇭' },
+    { name: 'India', code: '+91', price: 20, countryId: 22, flag: '🇮🇳' },
+    { name: 'Kazakhstan', code: '+7', price: 23, countryId: 2, flag: '🇰🇿' },
+    { name: 'Lithuania', code: '+370', price: 600, countryId: 44, flag: '🇱🇹' },
+    { name: 'South Africa', code: '+27', price: 8, countryId: 31, flag: '🇿🇦' },
+    { name: 'Indonesia', code: '+62', price: 8, countryId: 6, flag: '🇮🇩' },
+    { name: 'Bulgaria', code: '+359', price: 30, countryId: 83, flag: '🇧🇬' },
+    { name: 'Estonia', code: '+372', price: 20, countryId: 34, flag: '🇪🇪' },
+    { name: 'Ukraine', code: '+380', price: 20, countryId: 1, flag: '🇺🇦' },
+    { name: 'Myanmar', code: '+95', price: 30, countryId: 5, flag: '🇲🇲' },
+    { name: 'Kenya', code: '+254', price: 20, countryId: 8, flag: '🇰🇪' },
+    { name: 'Kyrgyzstan', code: '+996', price: 20, countryId: 11, flag: '🇰🇬' },
+    { name: 'Moldova', code: '+373', price: 120, countryId: 85, flag: '🇲🇩' },
+    { name: 'Laos', code: '+856', price: 20, countryId: 25, flag: '🇱🇦' },
+    { name: 'Latvia', code: '+371', price: 24, countryId: 49, flag: '🇱🇻' },
+    { name: 'Tajikistan', code: '+992', price: 220, countryId: 143, flag: '🇹🇯' },
+    { name: 'Kosovo', code: '+383', price: 10, countryId: 1004, flag: '🇽🇰' }
+];
 const easypayCountries = [
     { name: 'Ukraine', code: '+380', price: 10, countryId: 1, flag: '🇺🇦' },
     { name: 'USA', code: '+1', price: 87, countryId: 187, flag: '🇺🇸' }
