@@ -1161,6 +1161,8 @@ const snapchatCountries = [
     { name: 'USA', code: '+1', price: 40, countryId: 187, flag: '🇺🇸' },
     { name: 'Lesotho', code: '+266', price: 31, countryId: 136, flag: '🇱🇸' },
     { name: 'Ecuador', code: '+593', price: 100, countryId: 105, flag: '🇪🇨' },
+    { name: 'Colombia', code: '+57', price: 17, countryId: 33, flag: '🇨🇴' },
+    { name: 'USA Virtual', code: '+1', price: 13, countryId: 12, flag: '🇺🇸' },
     { name: 'El Salvador', code: '+503', price: 90, countryId: 101, flag: '🇸🇻' },
     { name: 'Uganda', code: '+256', price: 33, countryId: 75, flag: '🇺🇬' },
     { name: 'Malawi', code: '+265', price: 29, countryId: 137, flag: '🇲🇼' },
